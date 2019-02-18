@@ -6,7 +6,7 @@ Simple RESTful web service for library borrowing system using spring boot framew
 * Spring Tool Suite 4.1.1+ (might work on other IDE but use I recommend STS).
 * MySQL
 
-You also need to add some records beforehand to use GET method for retrieving data. Execute .sql files in resource directory.
+You also need to add some records beforehand (either manually from MySQL or using POST request) to use GET method for retrieving data. Execute .sql files in resource directory.
 
 ## BookController
 ### Get all existing books
