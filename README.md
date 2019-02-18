@@ -3,7 +3,7 @@ Simple RESTful web service for library borrowing system using spring boot framew
 
 ## Prerequisites
 * JDK 1.8+
-* Spring Tool Suite 4.1.1+ (might work on other IDE but use I recommend STS).
+* Spring Tool Suite 4.1.1+ (might work on other IDE but I recommend to use STS).
 * MySQL
 
 You also need to add some records beforehand (either manually from MySQL or using POST request) to use GET method for retrieving data.
