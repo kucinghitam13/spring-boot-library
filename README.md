@@ -29,7 +29,7 @@ Pretty much the same as BookController but with `http://localhost:8080/book/` as
 
 ## BorrowController
 ### Borrowing a book
-You only need to specify the borrower ID (or member ID) and the book ID. It will automatically created a borrowing date and remove the book stock by 1, or fail to do so if out of stock.  
+You only need to specify the borrower ID (or member ID) and the book ID. It will automatically creates a borrowing date and removes the book stock by 1, or fails to do so if out of stock.  
 Method : `POST`  
 Endpoint : `http://localhost:8080/borrow/`
 ![borrowing book](https://raw.githubusercontent.com/kucinghitam13/spring-boot-library/master/img/c.PNG)
