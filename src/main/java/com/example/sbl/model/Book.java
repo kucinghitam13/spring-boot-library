@@ -1,12 +1,13 @@
 package com.example.sbl.model;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
 
 @Entity
 public class Book {
-	@Id
+	@Id @GeneratedValue(strategy = javax.persistence.GenerationType.AUTO)
 	private long bookId;
 
 	@NotNull

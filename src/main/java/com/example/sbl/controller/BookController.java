@@ -29,7 +29,7 @@ public class BookController {
 	}
 	
 	@GetMapping("/{id}")
-	public ResponseEntity<Optional<Book>>getMemberById(@PathVariable(value = "id") long bookId) {
+	public ResponseEntity<Optional<Book>>getBookById(@PathVariable(value = "id") long bookId) {
 		Optional<Book> book = bookRepository.findById(bookId);
 		return ResponseEntity.ok().body(book);
 	}

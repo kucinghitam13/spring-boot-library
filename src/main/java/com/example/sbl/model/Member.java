@@ -22,8 +22,7 @@ import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 @Entity @EntityListeners(AuditingEntityListener.class)
 @JsonIgnoreProperties(value = { "joinDate" }, allowGetters = true)
 public class Member {
-	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@Id @GeneratedValue(strategy = GenerationType.AUTO)
 	private long memberId;
 	
 	@NotNull

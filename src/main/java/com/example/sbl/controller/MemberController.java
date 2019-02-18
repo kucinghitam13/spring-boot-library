@@ -20,7 +20,7 @@ import com.example.sbl.repository.MemberRepository;
 @RestController
 @RequestMapping("member")
 public class MemberController {
-	@Autowired
+	@Autowired 
 	MemberRepository memberRepository;
 	
 	@GetMapping
@@ -38,5 +38,4 @@ public class MemberController {
 	public Member addMember(@Valid @RequestBody Member member) {
 		return memberRepository.save(member);
 	}
-
 }
