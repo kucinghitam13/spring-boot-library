@@ -25,7 +25,7 @@ Endpoint : `http://localhost:8080/book/`
 ![add book](https://raw.githubusercontent.com/kucinghitam13/spring-boot-library/master/img/03.PNG)
 
 ## MemberController
-Pretty much the same as BookController but with `http://localhost:8080/book/` as its endpoint.
+Pretty much the same as BookController but with `http://localhost:8080/member/` as its endpoint.
 
 ## BorrowController
 ### Borrowing a book
