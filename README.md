@@ -1,5 +1,5 @@
 # spring-boot-library
-Simple RESTful web service for library borrowing system using spring boot framework on Spring Tool Suite 4.
+Spring boot is a framework to implements dependency injection on java project. I made a simple RESTful web service for library borrowing system using spring boot framework on Spring Tool Suite 4.
 
 ## Prerequisites
 * JDK 1.8+
